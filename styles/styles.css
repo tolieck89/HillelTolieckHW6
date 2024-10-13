@@ -1,0 +1,25 @@
+.yellow {
+    background-color: yellow;
+}
+td {
+    border: solid black 5px;
+}
+
+table {
+    border: solid black 2 px;
+    width: 810px;
+    height: 540px;
+    padding: 0;
+    border-spacing: 0;
+}
+
+.red {
+    background-color: red;
+}
+.row1 {
+    height: 11%;
+}
+
+.row2 {
+    height: 22%;
+}
