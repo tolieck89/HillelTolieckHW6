@@ -8,5 +8,49 @@ table {
 td {
     
     border: 7px solid black;
-    
+    box-sizing: border-box;
     }
+
+.col100 {
+    width: 100px;
+}
+
+.col200 {
+    width: 200px;
+}
+
+.col125{
+    width: 125px;
+}
+
+.col50 {
+    width: 50px;
+}
+
+.row100 {
+    height: 100px;
+}
+
+.row200 {
+    height: 200px;
+}
+
+.row50 {
+    height: 50px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
