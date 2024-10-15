@@ -1,35 +1,74 @@
 <!DOCTYPE html>
 <html lang="uk">
-    <head>
-        <meta charset="UTF-8">
-        <title>Homework6: main page</title>
-        <link rel="stylesheet" href="styles/styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
 
-    <body>
-        <table>
-            <tr class="row1">
-                <td colspan="2"></td>
-                <td ></td>
-                <td class="yellow" width="23%"></td>
-                <td width="130px"></td>
-            </tr>
+<body>
+    
+  <table>
 
-            <tr class="row2">
-                <td width="12%"></td>
-                <td class="red" colspan="2"></td>
-                <td class="yellow"></td>
-                <td></td> 
-            </tr>
+    <colgroup>
+      <col style="width:100px;">
+      <col style="width:100px;">
+      <col style="width:100px;">
+      <col style="width:200px;">
+      <col style="width: 125px;">
+      <col style="width: 125px;">
+      <col style="width: 50px;">
+    </colgroup>
+    
+    <tr style="height: 100px;">
+      <td colspan="2" style="width: 100px;" ></td>
+      <td colspan="2" style="width: 150px;"></td>
+      <td colspan="2" style="background-color: yellow; width: 125px;"></td>
+      <td rowspan="4" style="width: 50px;"></td>
+    </tr>
 
-          
+    <tr style="height: 200px;">
+      <td></td>
+      <td colspan="3" rowspan="2" style="background-color: red;"></td>
+      <td colspan="2" style="background-color: yellow;"></td>
+      </tr>
 
-          
+      <tr style="height: 200px;">
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr style="height: 100px;">
+        <td colspan="2" rowspan="2" style="background-color: black;"></td>
+        <td></td>
+        <td colspan="2"></td>
+      </tr>
+
+      <tr style="height: 100px;">
+        <td rowspan="3" style="background-color: yellow ;"></td>
+        <td></td>
+        <td colspan="2" rowspan="2" style="background-color: blue;"></td>
+        <td rowspan="3" style="background-color: red;"></td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <td colspan="2" rowspan="2" ></td>
+        <td style="background-color: black;"></td>
+      </tr>
+
+      <tr style="height: 50px;">
+        <td colspan="3"></td>
+      </tr>
+   
+  
 
 
 
 
 
-        </table>
-    </body>
+
+  </table>
+
+</body>
 </html>
